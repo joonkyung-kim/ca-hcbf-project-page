@@ -49,6 +49,12 @@ body {
   overflow: hidden;
 }
 
+.button.is-disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
 .button.is-dark {
   background: var(--text-primary) !important;
   border: none !important;
@@ -148,7 +154,14 @@ body {
 .publication-authors {
     font-family: 'Inter', sans-serif !important;
     font-weight: 500;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.publication-affiliations {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 400;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
 }
 
 .publication-venue {
@@ -279,7 +292,7 @@ body {
 .results-carousel video {
   margin: 0 auto;
   border-radius: var(--border-radius);
-  max-width: 70%;
+  max-width: 100%;
   height: auto;
   display: block;
 }
