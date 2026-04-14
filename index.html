@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <!-- Primary Meta Tags -->
-  <meta name="title" content="CA-HCBF: Capability-Aware Heterogeneous Control Barrier Functions for Decentralized Multi-Robot Safe Navigation">
-  <meta name="description" content="CA-HCBF: A decentralized framework for consistent safety enforcement and capability-aware coordination in heterogeneous robot teams.">
-  <meta name="keywords" content="control barrier functions, multi-robot systems, safe navigation, heterogeneous robots, decentralized control, collision avoidance, robotics">
+  <meta name="title"
+    content="CA-HCBF: Capability-Aware Heterogeneous Control Barrier Functions for Decentralized Multi-Robot Safe Navigation">
+  <meta name="description"
+    content="CA-HCBF: A decentralized framework for consistent safety enforcement and capability-aware coordination in heterogeneous robot teams.">
+  <meta name="keywords"
+    content="control barrier functions, multi-robot systems, safe navigation, heterogeneous robots, decentralized control, collision avoidance, robotics">
   <meta name="author" content="Joonkyung Kim, Yanze Zhang, Wenhao Luo, Yiwei Lyu">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
@@ -15,8 +19,10 @@
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Texas A&M University">
-  <meta property="og:title" content="CA-HCBF: Capability-Aware Heterogeneous Control Barrier Functions for Decentralized Multi-Robot Safe Navigation">
-  <meta property="og:description" content="CA-HCBF: A decentralized framework for consistent safety enforcement and capability-aware coordination in heterogeneous robot teams.">
+  <meta property="og:title"
+    content="CA-HCBF: Capability-Aware Heterogeneous Control Barrier Functions for Decentralized Multi-Robot Safe Navigation">
+  <meta property="og:description"
+    content="CA-HCBF: A decentralized framework for consistent safety enforcement and capability-aware coordination in heterogeneous robot teams.">
   <meta property="og:url" content="">
   <meta property="og:image" content="static/images/social_preview.png">
   <meta property="og:image:width" content="1200">
@@ -32,13 +38,16 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="">
   <meta name="twitter:creator" content="">
-  <meta name="twitter:title" content="CA-HCBF: Capability-Aware Heterogeneous Control Barrier Functions for Decentralized Multi-Robot Safe Navigation">
-  <meta name="twitter:description" content="CA-HCBF: A decentralized framework for consistent safety enforcement and capability-aware coordination in heterogeneous robot teams.">
+  <meta name="twitter:title"
+    content="CA-HCBF: Capability-Aware Heterogeneous Control Barrier Functions for Decentralized Multi-Robot Safe Navigation">
+  <meta name="twitter:description"
+    content="CA-HCBF: A decentralized framework for consistent safety enforcement and capability-aware coordination in heterogeneous robot teams.">
   <meta name="twitter:image" content="static/images/social_preview.png">
   <meta name="twitter:image:alt" content="CA-HCBF - Research Preview">
 
   <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="Capability-Aware Heterogeneous Control Barrier Functions for Decentralized Multi-Robot Safe Navigation">
+  <meta name="citation_title"
+    content="Capability-Aware Heterogeneous Control Barrier Functions for Decentralized Multi-Robot Safe Navigation">
   <meta name="citation_author" content="Kim, Joonkyung">
   <meta name="citation_author" content="Zhang, Yanze">
   <meta name="citation_author" content="Luo, Wenhao">
@@ -46,13 +55,13 @@
   <meta name="citation_publication_date" content="2026">
   <meta name="citation_conference_title" content="Preprint">
   <meta name="citation_pdf_url" content="docs/CA_HCBF_preprint.pdf">
-  
+
   <!-- Additional SEO -->
   <meta name="theme-color" content="#2563eb">
   <meta name="msapplication-TileColor" content="#2563eb">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  
+
   <!-- Preconnect for performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -62,21 +71,24 @@
 
 
   <title>CA-HCBF - Capability-Aware Heterogeneous Control Barrier Functions | Preprint</title>
-  
+
   <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link rel="apple-touch-icon" href="static/images/favicon.ico">
-  
+
   <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/index.css">
-  
+
   <!-- Non-critical CSS - Load asynchronously -->
-  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  
+  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+
   <!-- Fallback for browsers that don't support preload -->
   <noscript>
     <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
@@ -84,10 +96,10 @@
     <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   </noscript>
-  
+
   <!-- Fonts - Optimized loading -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  
+
   <!-- Defer non-critical JavaScript -->
   <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
@@ -95,7 +107,7 @@
   <script defer src="static/js/bulma-carousel.min.js"></script>
   <script defer src="static/js/bulma-slider.min.js"></script>
   <script defer src="static/js/index.js"></script>
-  
+
   <!-- Structured Data for Academic Papers -->
   <script type="application/ld+json">
   {
@@ -178,6 +190,7 @@
   }
   </script>
 </head>
+
 <body>
 
 
@@ -187,116 +200,143 @@
   </button>
 
   <main id="main-content">
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Capability-Aware Heterogeneous Control Barrier Functions for Decentralized Multi-Robot Safe Navigation</h1>
-            <div class="is-size-5 publication-authors">
-              <span class="author-block">
-                Joonkyung Kim<sup>1</sup>,</span>
-              <span class="author-block">
-                Yanze Zhang<sup>2</sup>,</span>
-              <span class="author-block">
-                Wenhao Luo<sup>2</sup>,</span>
-              <span class="author-block">
-                Yiwei Lyu<sup>1,*</sup>
-              </span>
-            </div>
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <h1 class="title is-1 publication-title">Capability-Aware Heterogeneous Control Barrier Functions for
+                Decentralized Multi-Robot Safe Navigation</h1>
+              <div class="is-size-5 publication-authors">
+                <span class="author-block">
+                  Joonkyung Kim<sup>1</sup>,</span>
+                <span class="author-block">
+                  Yanze Zhang<sup>2</sup>,</span>
+                <span class="author-block">
+                  Wenhao Luo<sup>2</sup>,</span>
+                <span class="author-block">
+                  Yiwei Lyu<sup>1,*</sup>
+                </span>
+              </div>
 
-            <div class="is-size-5 publication-authors">
-              <span class="author-block"><sup>1</sup>Texas A&M University, <sup>2</sup>University of Illinois Chicago<br>Preprint</span>
-              <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding author: yiweilyu@tamu.edu</small></span>
-            </div>
+              <div class="is-size-5 publication-authors">
+                <span class="author-block"><sup>1</sup>Texas A&M University, <sup>2</sup>University of Illinois
+                  Chicago<br>Preprint</span>
+                <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding author: yiweilyu@tamu.edu</small></span> -->
+              </div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                      <span class="link-block">
-                        <a href="docs/CA_HCBF_preprint.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
+              <div class="column has-text-centered">
+                <div class="publication-links">
+                  <span class="link-block">
+                    <a href="docs/CA_HCBF_preprint.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Paper</span>
+                    </a>
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
 
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <source src="video/IROS26_3197_VI_i.mp4" type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        CA-HCBF enables safe and efficient decentralized navigation for heterogeneous multi-robot teams with different kinematic constraints.
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            Safe navigation for multi-robot systems requires enforcing safety without sacrificing task efficiency under decentralized decision-making. Existing decentralized methods often assume robot homogeneity, making shared safety requirements non-uniformly interpreted across heterogeneous agents with structurally different dynamics, which could lead to avoidance obligations not physically realizable for some robots and thus cause safety violations or deadlock. In this paper, we propose Capability-Aware Heterogeneous Control Barrier Function (CA-HCBF), a decentralized framework for consistent safety enforcement and capability-aware coordination in heterogeneous robot teams. We derive a canonical second-order control-affine representation that unifies holonomic and nonholonomic robots under acceleration-level control via canonical transformation and backstepping, preserving forward invariance of the safe set while avoiding relative-degree mismatch across heterogeneous dynamics. We further introduce a support-function-based directional capability metric that quantifies each robot's ability to follow its motion intent, deriving a pairwise responsibility allocation that distributes the safety burden proportionally to each robot's motion capability. A feasibility-aware clipping mechanism further constrains the allocation to each agent's physically achievable range, mitigating infeasible constraint assignments common in dense decentralized CBF settings. Simulations with up to 30 heterogeneous robots and a physical multi-robot demonstration show improved safety and task efficiency over baselines, validating real-world applicability across robots with distinct kinematic constraints.
-          </p>
+    <!-- Teaser video-->
+    <section class="hero teaser">
+      <div class="container is-max-desktop">
+        <div class="hero-body">
+          <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
+            <source src="video/IROS26_3197_VI_i.mp4" type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            CA-HCBF enables safe and efficient decentralized navigation for heterogeneous multi-robot teams with
+            different kinematic constraints.
+          </h2>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-<!-- End paper abstract -->
+    </section>
+    <!-- End teaser video -->
 
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <img src="figures/figure1.jpg" alt="Five heterogeneous robots with different kinematic classes navigating toward individual goals" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Five mobile robots with heterogeneous kinematic classes (DI, UNI, DD, CL, FO) navigate toward individual goals. Each robot's statement reflects its directional motion capability.
-        </h2>
+    <!-- Paper abstract -->
+    <section class="section hero is-light">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Abstract</h2>
+            <div class="content has-text-justified">
+              <p>
+                Safe navigation for multi-robot systems requires enforcing safety without sacrificing task efficiency
+                under decentralized decision-making. Existing decentralized methods often assume robot homogeneity,
+                making shared safety requirements non-uniformly interpreted across heterogeneous agents with
+                structurally different dynamics, which could lead to avoidance obligations not physically realizable for
+                some robots and thus cause safety violations or deadlock. In this paper, we propose Capability-Aware
+                Heterogeneous Control Barrier Function (CA-HCBF), a decentralized framework for consistent safety
+                enforcement and capability-aware coordination in heterogeneous robot teams. We derive a canonical
+                second-order control-affine representation that unifies holonomic and nonholonomic robots under
+                acceleration-level control via canonical transformation and backstepping, preserving forward invariance
+                of the safe set while avoiding relative-degree mismatch across heterogeneous dynamics. We further
+                introduce a support-function-based directional capability metric that quantifies each robot's ability to
+                follow its motion intent, deriving a pairwise responsibility allocation that distributes the safety
+                burden proportionally to each robot's motion capability. A feasibility-aware clipping mechanism further
+                constrains the allocation to each agent's physically achievable range, mitigating infeasible constraint
+                assignments common in dense decentralized CBF settings. Simulations with up to 30 heterogeneous robots
+                and a physical multi-robot demonstration show improved safety and task efficiency over baselines,
+                validating real-world applicability across robots with distinct kinematic constraints.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="item">
-        <img src="figures/figure2.jpg" alt="Random start-goal scenario with 30 robots at multiple timestamps" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Random start-goal scenario with 30 robots (5 per model) at multiple timestamps showing CA-HCBF navigation performance.
-        </h2>
+    </section>
+    <!-- End paper abstract -->
+
+
+    <!-- Image carousel -->
+    <section class="hero is-small">
+      <div class="hero-body">
+        <div class="container">
+          <div id="results-carousel" class="carousel results-carousel">
+            <div class="item">
+              <img src="figures/figure_1_a.png"
+                alt="Five heterogeneous robots with different kinematic classes navigating toward individual goals"
+                loading="lazy" />
+              <h2 class="subtitle has-text-centered">
+                Five mobile robots with heterogeneous kinematic classes (DI, UNI, DD, CL, FO) navigate toward individual
+                goals. Each robot's statement reflects its directional motion capability.
+              </h2>
+            </div>
+            <div class="item">
+              <img src="figures/figure_2.png" alt="Random start-goal scenario with 30 robots at multiple timestamps"
+                loading="lazy" />
+              <h2 class="subtitle has-text-centered">
+                Random start-goal scenario with 30 robots (5 per model) at multiple timestamps showing CA-HCBF
+                navigation performance.
+              </h2>
+            </div>
+            <div class="item">
+              <img src="figures/figure_3.jpg" alt="QP infeasibility events comparison across team sizes"
+                loading="lazy" />
+              <h2 class="subtitle has-text-centered">
+                Average QP infeasibility events per trial across different team sizes, showing the effectiveness of
+                capability-aware allocation.
+              </h2>
+            </div>
+            <div class="item">
+              <img src="figures/table_1.jpg" alt="Performance comparison table" loading="lazy" />
+              <h2 class="subtitle has-text-centered">
+                Performance comparison across team sizes showing arrival rate, violation count, and mean violation
+                depth.
+              </h2>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="item">
-        <img src="figures/figure3.jpg" alt="QP infeasibility events comparison across team sizes" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Average QP infeasibility events per trial across different team sizes, showing the effectiveness of capability-aware allocation.
-        </h2>
-      </div>
-      <div class="item">
-        <img src="figures/figure4.jpg" alt="Performance comparison table" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Performance comparison across team sizes showing arrival rate, violation count, and mean violation depth.
-        </h2>
-      </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
+    </section>
+    <!-- End image carousel -->
 
 
 
@@ -304,50 +344,55 @@
 
 
 
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <div class="bibtex-header">
-        <h2 class="title">BibTeX</h2>
-        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-          <i class="fas fa-copy"></i>
-          <span class="copy-text">Copy</span>
-        </button>
-      </div>
-      <pre id="bibtex-code"><code>@article{kim2026cahcbf,
+    <!--BibTex citation -->
+    <section class="section" id="BibTeX">
+      <div class="container is-max-desktop content">
+        <div class="bibtex-header">
+          <h2 class="title">BibTeX</h2>
+          <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+            <i class="fas fa-copy"></i>
+            <span class="copy-text">Copy</span>
+          </button>
+        </div>
+        <pre id="bibtex-code"><code>@article{kim2026cahcbf,
   title={Capability-Aware Heterogeneous Control Barrier Functions for Decentralized Multi-Robot Safe Navigation},
   author={Kim, Joonkyung and Zhang, Yanze and Luo, Wenhao and Lyu, Yiwei},
   journal={Preprint},
   year={2026}
 }</code></pre>
-    </div>
-</section>
-<!--End BibTex citation -->
+      </div>
+    </section>
+    <!--End BibTex citation -->
 
 
-  <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
+    <footer class="footer">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <div class="content">
 
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
+              <p>
+                This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+                  target="_blank">Academic Project Page Template</a> which was adopted from the <a
+                  href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+                You are free to borrow the source code of this website, we just ask that you link back to this page in
+                the footer. <br> This website is licensed under a <a rel="license"
+                  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+                  Commons Attribution-ShareAlike 4.0 International License</a>.
+              </p>
 
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</footer>
+    </footer>
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+    <!-- Statcounter tracking code -->
+
+    <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
 
     <!-- End of Statcounter Code -->
 
-  </body>
-  </html>
+</body>
+
+</html>
